@@ -6,9 +6,11 @@ spring:
     name: discovery-service
 
 eureka:
+  instance:
+    hostname: localhost
   client:
-    register-with-eureka: true #eureka server를 registry에 등록할지 여부
-    fetch-registry: true       #registry에 있는 정보들을 가져올지 여부
+    register-with-eureka: false #eureka server를 registry에 등록할지 여부
+    fetch-registry: false       #registry에 있는 정보들을 가져올지 여부
 
   server:
     renewal-threshold-update-interval-ms: 30000  # 임계값 업데이트 간격
