@@ -14,4 +14,4 @@ eureka:
 
   server:
     renewal-threshold-update-interval-ms: 30000  # 임계값 업데이트 간격
-    eviction-interval-timer-in-ms: 4000  # 인스턴스 제거 주기git
+    eviction-interval-timer-in-ms: 4000  # 인스턴스 제거 주기
